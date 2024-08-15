@@ -10,6 +10,14 @@ Spring Authorization Server (2) 授权服务、资源服务、客户端核心配
 http://demo.server.com:9000/oauth2/authorize?client_id=messaging-client&response_type=code&scope=message.read&redirect_uri=http://demo.client.com:8080/login/oauth2/code/messaging-client-oidc
 输入账号和密码，并点击授权提交，获取code信息
 
+Spring Authorization Server (3) so seasy 集成第三方【gitee、github】oauth2登录
+
+http://demo.client.com:8080/index
+
+
+Spring Authorization Server (4) 客户端、资源服务、授权服务 源码加流程细讲 再也不绕路
+
+http://demo.client.com:8080/index
 
 
 

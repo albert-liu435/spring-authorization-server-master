@@ -29,7 +29,7 @@ import org.springframework.web.filter.CorsFilter;
  * @author Joe Grandja
  * @since 0.0.1
  */
-@EnableWebSecurity
+@EnableWebSecurity(debug = true)
 @Configuration(proxyBeanMethods = false)
 public class ResourceServerConfig {
 

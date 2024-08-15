@@ -19,7 +19,7 @@ import static org.springframework.security.config.Customizer.withDefaults;
  * @author Steve Riesenberg
  * @since 0.0.1
  */
-@EnableWebSecurity
+@EnableWebSecurity(debug = true)
 @Configuration(proxyBeanMethods = false)
 public class SecurityConfig {
 
