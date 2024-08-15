@@ -1,0 +1,16 @@
+为了方便测试，这里都换成域名进行设置，可以在windows hosts文件中设置如下ip映射
+127.0.0.1 demo.client.com
+127.0.0.1 demo.server.com
+127.0.0.1 demo.resource.com
+
+
+Spring Authorization Server (2) 授权服务、资源服务、客户端核心配置讲解
+
+授权码模式演示：
+http://demo.server.com:9000/oauth2/authorize?client_id=messaging-client&response_type=code&scope=message.read&redirect_uri=http://demo.client.com:8080/login/oauth2/code/messaging-client-oidc
+输入账号和密码，并点击授权提交，获取code信息
+
+
+
+
+文章地址：https://juejin.cn/user/4125023358427342/posts
